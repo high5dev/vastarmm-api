@@ -1,33 +1,33 @@
-## Web Site Change Detection, Restock monitoring and notifications.
+## Web Site Vastarmm, Restock monitoring and notifications.
 
 **_Detect website content changes and perform meaningful actions - trigger notifications via Discord, Email, Slack, Telegram, API calls and many more._**
 
 _Live your data-life pro-actively._ 
 
 
-[<img src="https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/screenshot.png" style="max-width:100%;" alt="Self-hosted web site page change monitoring"  title="Self-hosted web site page change monitoring"  />](https://changedetection.io?src=github)
+[<img src="https://raw.githubusercontent.com/dgtlmoon/vastarm.com/master/docs/screenshot.png" style="max-width:100%;" alt="Self-hosted web site page change monitoring"  title="Self-hosted web site page change monitoring"  />](https://vastarm.com?src=github)
 
 [![Release Version][release-shield]][release-link] [![Docker Pulls][docker-pulls]][docker-link] [![License][license-shield]](LICENSE.md)
 
-![changedetection.io](https://github.com/dgtlmoon/changedetection.io/actions/workflows/test-only.yml/badge.svg?branch=master)
+![vastarm.com](https://github.com/dgtlmoon/vastarm.com/actions/workflows/test-only.yml/badge.svg?branch=master)
 
-[**Get started with website page change monitoring straight away. Don't have time? Try our $8.99/month subscription, use our proxies and support!**](https://changedetection.io) , _half the price of other website change monitoring services!_
+[**Get started with website page change monitoring straight away. Don't have time? Try our $8.99/month subscription, use our proxies and support!**](https://vastarm.com) , _half the price of other website change monitoring services!_
 
 - Chrome browser included.
 - Nothing to install, access via browser login after signup.
 - Super fast, no registration needed setup.
 - Get started watching and receiving website change notifications straight away.
-- See our [tutorials and how-to page for more inspiration](https://changedetection.io/tutorials) 
+- See our [tutorials and how-to page for more inspiration](https://vastarm.com/tutorials) 
 
 ### Target specific parts of the webpage using the Visual Selector tool.
 
-Available when connected to a <a href="https://github.com/dgtlmoon/changedetection.io/wiki/Playwright-content-fetcher">playwright content fetcher</a> (included as part of our subscription service)
+Available when connected to a <a href="https://github.com/dgtlmoon/vastarm.com/wiki/Playwright-content-fetcher">playwright content fetcher</a> (included as part of our subscription service)
 
-[<img src="https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/visualselector-anim.gif" style="max-width:100%;" alt="Select parts and elements of a web page to monitor for changes"  title="Select parts and elements of a web page to monitor for changes" />](https://changedetection.io?src=github)
+[<img src="https://raw.githubusercontent.com/dgtlmoon/vastarm.com/master/docs/visualselector-anim.gif" style="max-width:100%;" alt="Select parts and elements of a web page to monitor for changes"  title="Select parts and elements of a web page to monitor for changes" />](https://vastarm.com?src=github)
 
 ### Easily see what changed, examine by word, line, or individual character.
 
-[<img src="https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/screenshot-diff.png" style="max-width:100%;" alt="Self-hosted web page change monitoring context difference "  title="Self-hosted web page change monitoring context difference " />](https://changedetection.io?src=github)
+[<img src="https://raw.githubusercontent.com/dgtlmoon/vastarm.com/master/docs/screenshot-diff.png" style="max-width:100%;" alt="Self-hosted web page change monitoring context difference "  title="Self-hosted web page change monitoring context difference " />](https://vastarm.com?src=github)
 
 
 ### Perform interactive browser steps
@@ -36,7 +36,7 @@ Fill in text boxes, click buttons and more, setup your changedetection scenario.
 
 Using the **Browser Steps** configuration, add basic steps before performing change detection, such as logging into websites, adding a product to a cart, accept cookie logins, entering dates and refining searches.
 
-[<img src="docs/browsersteps-anim.gif" style="max-width:100%;" alt="Website change detection with interactive browser steps, detect changes behind login and password, search queries and more"  title="Website change detection with interactive browser steps, detect changes behind login and password, search queries and more" />](https://changedetection.io?src=github)
+[<img src="docs/browsersteps-anim.gif" style="max-width:100%;" alt="Website change detection with interactive browser steps, detect changes behind login and password, search queries and more"  title="Website change detection with interactive browser steps, detect changes behind login and password, search queries and more" />](https://vastarm.com?src=github)
 
 After **Browser Steps** have been run, then visit the **Visual Selector** tab to refine the content you're interested in.
 Requires Playwright to be enabled.
@@ -82,18 +82,18 @@ _Need an actual Chrome runner with Javascript support? We support fetching via W
 - Execute JS before extracting text (Good for logging in, see examples in the UI!)
 - Override Request Headers, Specify `POST` or `GET` and other methods
 - Use the "Visual Selector" to help target specific elements
-- Configurable [proxy per watch](https://github.com/dgtlmoon/changedetection.io/wiki/Proxy-configuration)
+- Configurable [proxy per watch](https://github.com/dgtlmoon/vastarm.com/wiki/Proxy-configuration)
 - Send a screenshot with the notification when a change is detected in the web page
 
 We [recommend and use Bright Data](https://brightdata.grsm.io/n0r16zf7eivq) global proxy services, Bright Data will match any first deposit up to $100 using our signup link.
 
 [Oxylabs](https://oxylabs.go2cloud.org/SH2d) is also an excellent proxy provider and well worth using, they offer Residental, ISP, Rotating and many other proxy types to suit your project. 
 
-Please :star: star :star: this project and help it grow! https://github.com/dgtlmoon/changedetection.io/
+Please :star: star :star: this project and help it grow! https://github.com/dgtlmoon/vastarm.com/
 
 ### We have a Chrome extension!
 
-Easily add the current web page to your changedetection.io tool, simply install the extension and click "Sync" to connect it to your existing changedetection.io install.
+Easily add the current web page to your vastarm.com tool, simply install the extension and click "Sync" to connect it to your existing vastarm.com install.
 
 [<img src="./docs/chrome-extension-screenshot.png" style="max-width:80%;" alt="Chrome Extension to easily add the current web-page to detect a change."  title="Chrome Extension to easily add the current web-page to detect a change."  />](https://chromewebstore.google.com/detail/changedetectionio-website/kefcfmgmlhmankjmnbijimhofdjekbop)
 
@@ -111,38 +111,38 @@ $ docker compose up -d
 
 Docker standalone
 ```bash
-$ docker run -d --restart always -p "127.0.0.1:5000:5000" -v datastore-volume:/datastore --name changedetection.io dgtlmoon/changedetection.io
+$ docker run -d --restart always -p "127.0.0.1:5000:5000" -v datastore-volume:/datastore --name vastarm.com dgtlmoon/vastarm.com
 ```
 
 `:latest` tag is our latest stable release, `:dev` tag is our bleeding edge `master` branch.
 
-Alternative docker repository over at ghcr - [ghcr.io/dgtlmoon/changedetection.io](https://ghcr.io/dgtlmoon/changedetection.io)
+Alternative docker repository over at ghcr - [ghcr.io/dgtlmoon/vastarm.com](https://ghcr.io/dgtlmoon/vastarm.com)
 
 ### Windows
 
-See the install instructions at the wiki https://github.com/dgtlmoon/changedetection.io/wiki/Microsoft-Windows
+See the install instructions at the wiki https://github.com/dgtlmoon/vastarm.com/wiki/Microsoft-Windows
 
 ### Python Pip
 
-Check out our pypi page https://pypi.org/project/changedetection.io/
+Check out our pypi page https://pypi.org/project/vastarm.com/
 
 ```bash
-$ pip3 install changedetection.io
-$ changedetection.io -d /path/to/empty/data/dir -p 5000
+$ pip3 install vastarm.com
+$ vastarm.com -d /path/to/empty/data/dir -p 5000
 ```
 
 Then visit http://127.0.0.1:5000 , You should now be able to access the UI.
 
 _Now with per-site configurable support for using a fast built in HTTP fetcher or use a Chrome based fetcher for monitoring of JavaScript websites!_
 
-## Updating changedetection.io
+## Updating vastarm.com
 
 ### Docker
 ```
-docker pull dgtlmoon/changedetection.io
-docker kill $(docker ps -a -f name=changedetection.io -q)
-docker rm $(docker ps -a -f name=changedetection.io -q)
-docker run -d --restart always -p "127.0.0.1:5000:5000" -v datastore-volume:/datastore --name changedetection.io dgtlmoon/changedetection.io
+docker pull dgtlmoon/vastarm.com
+docker kill $(docker ps -a -f name=vastarm.com -q)
+docker rm $(docker ps -a -f name=vastarm.com -q)
+docker run -d --restart always -p "127.0.0.1:5000:5000" -v datastore-volume:/datastore --name vastarm.com dgtlmoon/vastarm.com
 ```
 
 ### docker compose
@@ -151,7 +151,7 @@ docker run -d --restart always -p "127.0.0.1:5000:5000" -v datastore-volume:/dat
 docker compose pull && docker compose up -d
 ```
 
-See the wiki for more information https://github.com/dgtlmoon/changedetection.io/wiki
+See the wiki for more information https://github.com/dgtlmoon/vastarm.com/wiki
 
 
 ## Filters
@@ -179,7 +179,7 @@ Just some examples
  
 <a href="https://github.com/caronc/apprise#popular-notification-services">And everything else in this list!</a>
 
-<img src="https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/screenshot-notifications.png" style="max-width:100%;" alt="Self-hosted web page change monitoring notifications"  title="Self-hosted web page change monitoring notifications"  />
+<img src="https://raw.githubusercontent.com/dgtlmoon/vastarm.com/master/docs/screenshot-notifications.png" style="max-width:100%;" alt="Self-hosted web page change monitoring notifications"  title="Self-hosted web page change monitoring notifications"  />
 
 Now you can also customise your notification content and use <a target="_new" href="https://jinja.palletsprojects.com/en/3.0.x/templates/">Jinja2 templating</a> for their title and body!
 
@@ -187,11 +187,11 @@ Now you can also customise your notification content and use <a target="_new" hr
 
 Detect changes and monitor data in JSON API's by using either JSONPath or jq to filter, parse, and restructure JSON as needed.
 
-![image](https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/json-filter-field-example.png)
+![image](https://raw.githubusercontent.com/dgtlmoon/vastarm.com/master/docs/json-filter-field-example.png)
 
 This will re-parse the JSON and apply formatting to the text, making it super easy to monitor and detect changes in JSON API results
 
-![image](https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/json-diff-example.png)
+![image](https://raw.githubusercontent.com/dgtlmoon/vastarm.com/master/docs/json-diff-example.png)
 
 ### JSONPath or jq?
 
@@ -199,7 +199,7 @@ For more complex parsing, filtering, and modifying of JSON data, jq is recommend
 
 One big advantage of `jq` is that you can use logic in your JSON filter, such as filters to only show items that have a value greater than/less than etc.
 
-See the wiki https://github.com/dgtlmoon/changedetection.io/wiki/JSON-Selector-Filter-help for more information and examples
+See the wiki https://github.com/dgtlmoon/vastarm.com/wiki/JSON-Selector-Filter-help for more information and examples
 
 ### Parse JSON embedded in HTML!
 
@@ -235,42 +235,42 @@ The application also supports notifying you that it can follow this information 
 
 ## Proxy Configuration
 
-See the wiki https://github.com/dgtlmoon/changedetection.io/wiki/Proxy-configuration , we also support using [Bright Data proxy services where possible](https://github.com/dgtlmoon/changedetection.io/wiki/Proxy-configuration#brightdata-proxy-support) and [Oxylabs](https://oxylabs.go2cloud.org/SH2d) proxy services.
+See the wiki https://github.com/dgtlmoon/vastarm.com/wiki/Proxy-configuration , we also support using [Bright Data proxy services where possible](https://github.com/dgtlmoon/vastarm.com/wiki/Proxy-configuration#brightdata-proxy-support) and [Oxylabs](https://oxylabs.go2cloud.org/SH2d) proxy services.
 
 ## Raspberry Pi support?
 
-Raspberry Pi and linux/arm/v6 linux/arm/v7 arm64 devices are supported! See the wiki for [details](https://github.com/dgtlmoon/changedetection.io/wiki/Fetching-pages-with-WebDriver)
+Raspberry Pi and linux/arm/v6 linux/arm/v7 arm64 devices are supported! See the wiki for [details](https://github.com/dgtlmoon/vastarm.com/wiki/Fetching-pages-with-WebDriver)
 
 ## Import support
 
-Easily [import your list of websites to watch for changes in Excel .xslx file format](https://changedetection.io/tutorial/how-import-your-website-change-detection-lists-excel), or paste in lists of website URLs as plaintext. 
+Easily [import your list of websites to watch for changes in Excel .xslx file format](https://vastarm.com/tutorial/how-import-your-website-change-detection-lists-excel), or paste in lists of website URLs as plaintext. 
 
 Excel import is recommended - that way you can better organise tags/groups of websites and other features.
 
 
 ## API Support
 
-Supports managing the website watch list [via our API](https://changedetection.io/docs/api_v1/index.html)
+Supports managing the website watch list [via our API](https://vastarm.com/docs/api_v1/index.html)
 
 ## Support us
 
-Do you use changedetection.io to make money? does it save you time or money? Does it make your life easier? less stressful? Remember, we write this software when we should be doing actual paid work, we have to buy food and pay rent just like you.
+Do you use vastarm.com to make money? does it save you time or money? Does it make your life easier? less stressful? Remember, we write this software when we should be doing actual paid work, we have to buy food and pay rent just like you.
 
 
-Consider taking out an officially supported [website change detection subscription](https://changedetection.io?src=github) , even if you don't use it, you still get the warm fuzzy feeling of helping out the project. (And who knows, you might just use it!)
+Consider taking out an officially supported [website change detection subscription](https://vastarm.com?src=github) , even if you don't use it, you still get the warm fuzzy feeling of helping out the project. (And who knows, you might just use it!)
 
 ## Commercial Support
 
-I offer commercial support, this software is depended on by network security, aerospace , data-science and data-journalist professionals just to name a few, please reach out at dgtlmoon@gmail.com for any enquiries, I am more than glad to work with your organisation to further the possibilities of what can be done with changedetection.io
+I offer commercial support, this software is depended on by network security, aerospace , data-science and data-journalist professionals just to name a few, please reach out at dgtlmoon@gmail.com for any enquiries, I am more than glad to work with your organisation to further the possibilities of what can be done with vastarm.com
 
 
-[release-shield]: https://img.shields.io:/github/v/release/dgtlmoon/changedetection.io?style=for-the-badge
-[docker-pulls]: https://img.shields.io/docker/pulls/dgtlmoon/changedetection.io?style=for-the-badge
-[test-shield]: https://github.com/dgtlmoon/changedetection.io/actions/workflows/test-only.yml/badge.svg?branch=master
+[release-shield]: https://img.shields.io:/github/v/release/dgtlmoon/vastarm.com?style=for-the-badge
+[docker-pulls]: https://img.shields.io/docker/pulls/dgtlmoon/vastarm.com?style=for-the-badge
+[test-shield]: https://github.com/dgtlmoon/vastarm.com/actions/workflows/test-only.yml/badge.svg?branch=master
 
-[license-shield]: https://img.shields.io/github/license/dgtlmoon/changedetection.io.svg?style=for-the-badge
-[release-link]: https://github.com/dgtlmoon/changedetection.io/releases
-[docker-link]: https://hub.docker.com/r/dgtlmoon/changedetection.io
+[license-shield]: https://img.shields.io/github/license/dgtlmoon/vastarm.com.svg?style=for-the-badge
+[release-link]: https://github.com/dgtlmoon/vastarm.com/releases
+[docker-link]: https://hub.docker.com/r/dgtlmoon/vastarm.com
 
 ## Third-party licenses
 

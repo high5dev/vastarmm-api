@@ -5,7 +5,7 @@
     <meta charset="utf-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <meta name="description" content="Self hosted website change detection." >
-    <title>Change Detection{{extra_title}}</title>
+    <title>Quantumn Squint{{extra_title}}</title>
     <link rel="alternate" type="application/rss+xml" title="Changedetection.io » Feed{% if active_tag %}- {{active_tag}}{% endif %}" href="{{ url_for('rss', tag=active_tag , token=app_rss_token)}}" >
     <link rel="stylesheet" href="{{url_for('static_content', group='styles', filename='pure-min.css')}}" >
     <link rel="stylesheet" href="{{url_for('static_content', group='styles', filename='styles.css')}}?v={{ get_css_version() }}" >
@@ -37,11 +37,11 @@
     <div class="header">
       <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed" id="nav-menu">
         {% if has_password and not current_user.is_authenticated %}
-          <a class="pure-menu-heading" href="https://changedetection.io" rel="noopener">
-            <strong>Change</strong>Detection.io</a>
+          <a class="pure-menu-heading" href="https://vastarm.com" rel="noopener">
+            <strong>Quantumn</strong>Squint</a>
         {% else %}
           <a class="pure-menu-heading" href="{{url_for('index')}}">
-            <strong>Change</strong>Detection.io</a>
+            <strong>Quantumn</strong>Squint</a>
         {% endif %}
         {% if current_diff_url %}
           <a class="current-diff-url" href="{{ current_diff_url }}">
@@ -49,7 +49,7 @@
         {% else %}
           {% if new_version_available and not(has_password and not current_user.is_authenticated) %}
             <span id="new-version-text" class="pure-menu-heading">
-              <a href="https://changedetection.io">A new version is available</a>
+              <a href="https://vastarm.com">A new version is available</a>
             </span>
           {% endif %}
         {% endif %}
@@ -77,7 +77,7 @@
             {% endif %}
           {% else %}
             <li class="pure-menu-item">
-              <a class="pure-menu-link" href="https://changedetection.io">Website Change Detection and Notification.</a>
+              <a class="pure-menu-link" href="https://vastarm.com">Website Vastarmm and Notification.</a>
             </li>
           {% endif %}
           {% if current_user.is_authenticated %}
@@ -98,8 +98,8 @@
           </li>
           {% endif %}
           <li class="pure-menu-item">
-            <button class="toggle-button" id ="toggle-light-mode" type="button" title="Toggle Light/Dark Mode">
-              <span class="visually-hidden">Toggle light/dark mode</span>
+            <button class="toggle-button" id ="toggle-light-mode" type="button" title="Toggle Light/Dark Theme">
+              <span class="visually-hidden">Toggle light/dark</span>
               <span class="icon-light">
                 {% include "svgs/light-mode-toggle-icon.svg" %}
               </span>
@@ -108,7 +108,7 @@
               </span>
             </button>
           </li>
-          <li class="pure-menu-item" id="heart-us">
+          <!-- <li class="pure-menu-item" id="heart-us">
                 <svg
                    fill="#ff0000"
                    class="bi bi-heart"
@@ -121,18 +121,18 @@
                      style="fill:var(--color-background);fill-opacity:1;stroke:#ff0000;stroke-opacity:1" />
                 </svg>
 
-          </li>
-          <li class="pure-menu-item">
-            <a class="github-link" href="https://github.com/dgtlmoon/changedetection.io">
+          </li> -->
+          <!-- <li class="pure-menu-item">
+            <a class="github-link" href="https://github.com/dgtlmoon/vastarm.com">
               {% include "svgs/github.svg" %}
             </a>
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>
     {% if hosted_sticky %}
       <div class="sticky-tab" id="hosted-sticky">
-        <a href="https://changedetection.io/?ref={{guid}}">Let us host your instance!</a>
+        <a href="https://vastarm.com/?ref={{guid}}">Let us host your instance!</a>
       </div>
     {% endif %}
     {% if left_sticky %}
@@ -157,11 +157,11 @@
                     </a>
                 </p>
 
-                Easily add the current web-page from your browser directly into your changedetection.io tool, more great features coming soon!
+                Easily add the current web-page from your browser directly into your vastarm.com tool, more great features coming soon!
 
                 <h4>Changedetection.io needs your support!</h4>
                 <p>
-                    You can help us by supporting changedetection.io on these platforms;
+                    You can help us by supporting vastarm.com on these platforms;
                 </p>
                 <p>
                 <ul>
@@ -170,7 +170,7 @@
                         AlternativeTo.net</a>
                     </li>
                 <li>
-                    <a href="https://github.com/dgtlmoon/changedetection.io">Star us on GitHub</a>
+                    <a href="https://github.com/dgtlmoon/vastarm.com">Star us on GitHub</a>
                 </li>
                 <li>
                     <a href="https://twitter.com/change_det_io">Follow us at Twitter/X</a>
@@ -183,13 +183,13 @@
                 </li>
                 </ul>
                 <p>
-                    The more popular changedetection.io is, the more time we can dedicate to adding amazing features!
+                    The more popular vastarm.com is, the more time we can dedicate to adding amazing features!
                 </p>
                 <p>
                     Many thanks :)<br>
                 </p>
                 <p>
-                    <i>changedetection.io team</i>
+                    <i>vastarm.com team</i>
                 </p>
             </div>
         </div>

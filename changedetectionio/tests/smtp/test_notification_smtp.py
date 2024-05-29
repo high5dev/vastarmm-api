@@ -172,7 +172,7 @@ def test_check_notification_email_formats_default_Text_override_HTML(client, liv
     assert 'Content-Type: text/html' in msg
     assert '(removed) So let\'s see what happens.<br>' in msg  # the html part
 
-    # https://github.com/dgtlmoon/changedetection.io/issues/2103
+    # https://github.com/dgtlmoon/vastarm.com/issues/2103
     assert '<h1>Test</h1>' in msg
     assert '&lt;' not in msg
     assert 'Content-Type: text/html' in msg

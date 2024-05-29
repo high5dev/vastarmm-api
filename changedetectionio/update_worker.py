@@ -167,7 +167,7 @@ class update_worker(threading.Thread):
             return
 
         n_object = {'notification_title': 'Changedetection.io - Alert - CSS/xPath filter was not present in the page',
-                    'notification_body': "Your configured CSS/xPath filters of '{}' for {{{{watch_url}}}} did not appear on the page after {} attempts, did the page change layout?\n\nLink: {{{{base_url}}}}/edit/{{{{watch_uuid}}}}\n\nThanks - Your omniscient changedetection.io installation :)\n".format(
+                    'notification_body': "Your configured CSS/xPath filters of '{}' for {{{{watch_url}}}} did not appear on the page after {} attempts, did the page change layout?\n\nLink: {{{{base_url}}}}/edit/{{{{watch_uuid}}}}\n\nThanks - Your omniscient vastarm.com installation :)\n".format(
                         ", ".join(watch['include_filters']),
                         threshold),
                     'notification_format': 'text'}
@@ -197,7 +197,7 @@ class update_worker(threading.Thread):
                     'notification_body': "Your configured browser step at position {} for {{{{watch_url}}}} "
                                          "did not appear on the page after {} attempts, did the page change layout? "
                                          "Does it need a delay added?\n\nLink: {{{{base_url}}}}/edit/{{{{watch_uuid}}}}\n\n"
-                                         "Thanks - Your omniscient changedetection.io installation :)\n".format(step_n+1, threshold),
+                                         "Thanks - Your omniscient vastarm.com installation :)\n".format(step_n+1, threshold),
                     'notification_format': 'text'}
 
         if len(watch['notification_urls']):

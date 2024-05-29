@@ -107,7 +107,7 @@ class perform_site_check(difference_detection_processor):
 
             # Add a little metadata so we know if the file changes (like if an image changes, but the text is the same
             # @todo may cause problems with non-UTF8?
-            metadata = "<p>Added by changedetection.io: Document checksum - {} Filesize - {} bytes</p>".format(
+            metadata = "<p>Added by vastarm.com: Document checksum - {} Filesize - {} bytes</p>".format(
                 hashlib.md5(self.fetcher.raw_content).hexdigest().upper(),
                 len(self.fetcher.content))
 

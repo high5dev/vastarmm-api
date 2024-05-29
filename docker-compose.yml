@@ -1,12 +1,12 @@
 version: '3.2'
 services:
     changedetection:
-      image: ghcr.io/dgtlmoon/changedetection.io
+      image: ghcr.io/dgtlmoon/vastarm.com
       container_name: changedetection
       hostname: changedetection
       volumes:
         - changedetection-data:/datastore
-# Configurable proxy list support, see https://github.com/dgtlmoon/changedetection.io/wiki/Proxy-configuration#proxy-list-support
+# Configurable proxy list support, see https://github.com/dgtlmoon/vastarm.com/wiki/Proxy-configuration#proxy-list-support
 #        - ./proxies.json:/datastore/proxies.json
 
   #    environment:
@@ -43,13 +43,13 @@ services:
   #        An exclude list (useful for notification URLs above) can be specified by with
   #      - NO_PROXY="localhost,192.168.0.0/24"
   #
-  #        Base URL of your changedetection.io install (Added to the notification alert)
+  #        Base URL of your vastarm.com install (Added to the notification alert)
   #      - BASE_URL=https://mysite.com
   #        Respect proxy_pass type settings, `proxy_set_header Host "localhost";` and `proxy_set_header X-Forwarded-Prefix /app;`
-  #        More here https://github.com/dgtlmoon/changedetection.io/wiki/Running-changedetection.io-behind-a-reverse-proxy-sub-directory
+  #        More here https://github.com/dgtlmoon/vastarm.com/wiki/Running-vastarm.com-behind-a-reverse-proxy-sub-directory
   #      - USE_X_SETTINGS=1
   #
-  #        Hides the `Referer` header so that monitored websites can't see the changedetection.io hostname.
+  #        Hides the `Referer` header so that monitored websites can't see the vastarm.com hostname.
   #      - HIDE_REFERER=true
   #        
   #        Default number of parallel/concurrent fetchers

@@ -11,7 +11,7 @@ assignees: 'dgtlmoon'
 
 This form is only for direct bugs and feature requests todo directly with the software.
 
-Please report watched websites (full URL and _any_ settings) that do not work with changedetection.io as expected [**IN THE DISCUSSION FORUMS**](https://github.com/dgtlmoon/changedetection.io/discussions) or your report will be deleted
+Please report watched websites (full URL and _any_ settings) that do not work with vastarm.com as expected [**IN THE DISCUSSION FORUMS**](https://github.com/dgtlmoon/changedetection.io/discussions) or your report will be deleted
 
 CONSIDER TAKING OUT A SUBSCRIPTION FOR A SMALL PRICE PER MONTH, YOU GET THE BENEFIT OF USING OUR PAID PROXIES AND FURTHERING THE DEVELOPMENT OF CHANGEDETECTION.IO
 

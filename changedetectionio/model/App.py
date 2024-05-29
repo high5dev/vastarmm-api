@@ -9,7 +9,7 @@ _FILTER_FAILURE_THRESHOLD_ATTEMPTS_DEFAULT = 6
 
 class model(dict):
     base_config = {
-            'note': "Hello! If you change this file manually, please be sure to restart your changedetection.io instance!",
+            'note': "Hello! If you change this file manually, please be sure to restart your vastarm.com instance!",
             'watching': {},
             'settings': {
                 'headers': {

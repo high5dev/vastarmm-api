@@ -252,7 +252,7 @@ def create_notification_parameters(n_object, datastore):
                 tag_list.append(tag.get('title'))
         watch_tag = ', '.join(tag_list)
     else:
-        watch_title = 'Change Detection'
+        watch_title = 'Vastarmm'
         watch_tag = ''
 
     # Create URLs to customise the notification with
